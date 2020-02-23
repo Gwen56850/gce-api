@@ -6,7 +6,7 @@ The goal of this module is to play with google cloud endpoints deployed on appen
    
 ## Running locally
 
-    mvn appengine:run in folder gce-api for the gce-api module (will be deployed on localhost:8080)
+    mvn appengine:run (will be deployed on localhost:8080)
 
 ## Deploying
 
