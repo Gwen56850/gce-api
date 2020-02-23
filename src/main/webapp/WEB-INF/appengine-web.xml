@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <version>1</version>
+    <runtime>java8</runtime>
+    <threadsafe>true</threadsafe>
+<!--    <service>core</service>-->
+    <url-stream-handler>urlfetch</url-stream-handler>
+
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+    </system-properties>
+
+    <env-variables>
+        <env-var name="ENDPOINTS_SERVICE_NAME" value="${app.project.id}.appspot.com"/>
+    </env-variables>
+
+</appengine-web-app>
